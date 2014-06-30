@@ -20,10 +20,8 @@ namespace TestApplication
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Keywords keywd = new TestLibrary.Keywords();
-            //label1.Text = keywd.labelText;
-
-            label1.Text = StKeywords.labelText;
+            Keywords keywd = new TestLibrary.Keywords();
+            label1.Text = keywd.labelText;
             label1.Text += StKeywords.labelText;
         }
     }

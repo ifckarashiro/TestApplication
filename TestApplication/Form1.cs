@@ -23,9 +23,16 @@ namespace TestApplication
         {
             Keywords keywd = new TestLibrary.Keywords();
             label1.Text = keywd.labelText;
-            label1.Text += StKeywords.labelText + " [分岐]";
+            label1.Text += StKeywords.labelText + " [" + this.textBox1.Text + "]";
+
+            int i = getinteger();
 
             pictureBox1.Image = Resources.日本語ファイル;
+        }
+
+        private int getinteger()
+        {
+            return 100;
         }
     }
 }

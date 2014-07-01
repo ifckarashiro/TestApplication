@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TestLibrary;
+using TestApplication.Properties;
 
 namespace TestApplication
 {
@@ -23,6 +24,8 @@ namespace TestApplication
             Keywords keywd = new TestLibrary.Keywords();
             label1.Text = keywd.labelText;
             label1.Text += StKeywords.labelText;
+
+            pictureBox1.Image = Resources.日本語ファイル;
         }
     }
 }

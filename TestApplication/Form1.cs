@@ -23,7 +23,7 @@ namespace TestApplication
         {
             Keywords keywd = new TestLibrary.Keywords();
             label1.Text = keywd.labelText;
-            label1.Text += StKeywords.labelText;
+            label1.Text += StKeywords.labelText + " [分岐]";
 
             pictureBox1.Image = Resources.日本語ファイル;
         }
